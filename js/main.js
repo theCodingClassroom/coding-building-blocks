@@ -1,7 +1,7 @@
 $(document).ready(function(){
   currClass = "";
   var num_blocks;
-  for (num_blocks = 1; num_blocks <= 3; num_blocks++) {
+  for (num_blocks = 1; num_blocks <= 9; num_blocks++) {
     var elem = document.getElementById("block"+ num_blocks +"text");
     elem.classList.toggle("toggle");
   }
