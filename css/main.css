@@ -286,6 +286,7 @@ textarea {
 
     #header {
       height: 6vw;
+      margin-bottom: 5vw;
     }
 
 
@@ -302,9 +303,9 @@ textarea {
     .block{
       float: left;
       width: 30vw;
-      height: 12vw;
+      height: 20vw;
       margin-left: 3vw;
-      margin-top: 1vw;
+      margin-top: 4vw;
       /* background-color: lightgrey; */
       padding-left: 4vw;
     }
@@ -319,7 +320,7 @@ textarea {
       height: 40vw;
       padding: 3vw;
       font-size: 1.5vw;
-      margin-top: 15vw;
+      margin-top: 8vw;
     }
 
 
