@@ -101,7 +101,7 @@ textarea {
   box-shadow: 0 0.25vw 0.3vw 0 rgba(0, 0, 0, 0.2);
   height: 4vw;
   width: 100%;
-  margin-bottom: 3vw;
+  margin-bottom: 4vw;
 
 
 }
@@ -110,7 +110,7 @@ textarea {
   height: 3.9vw;
   width: auto;
   margin-top: 0.1vw;
-  margin-left: 3vw;
+  margin-left: 6vw;
 
 }
 
@@ -118,19 +118,19 @@ textarea {
 
 #blockcontainer{
   display: block;
-
-  width: 80vw;
+  float: left;
+  width: 70vw;
+  /* background-color: lightgrey */
 }
 
 
 .block{
   float: left;
-  width: 22vw;
-  height: 12vw;
+  width: 28%;/*22vw;*/
+  height: 14vw;
   margin-left: 3vw;
-  margin-top: 1vw;
-  /* background-color: lightgrey; */
-
+  /* margin-top: 0vw;
+  background-color: lightgrey; */
   padding-left: 4vw;
 }
 
@@ -167,14 +167,13 @@ textarea {
 }
 
 #info{
-
-  right: 3vw;
+  margin-right: 3vw;
   background-color: #eaf9f8;
   box-shadow: 0 0.3vw 0.3vw 0 rgba(0, 0, 0, 0.2);
-
-  position: fixed;
-  width: 20vw;
-  height: 80%;
+  float: right;
+  /* position: fixed; */
+  width: 25vw;
+  height: 40vw;
   max-height: 70vw;
   padding: 3vw;
   font-size: 1.5vw;
@@ -187,19 +186,9 @@ textarea {
 
 
 
-
-
-
 .toggle{
   display: none;
 }
-
-
-
-
-
-
-
 
 
 
@@ -292,8 +281,50 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+
+    #header {
+      height: 6vw;
+    }
+
+
+    #logo {
+      height: 5.9vw;
+    }
+
+    #blockcontainer {
+      display: block;
+      width: 100vw;
+    }
+
+
+    .block{
+      float: left;
+      width: 30vw;
+      height: 12vw;
+      margin-left: 3vw;
+      margin-top: 1vw;
+      /* background-color: lightgrey; */
+      padding-left: 4vw;
+    }
+
+
+
+    #info{
+      float: left;
+      left:3vw;
+      position: relative;
+      width: 93vw;
+      height: 40vw;
+      padding: 3vw;
+      font-size: 1.5vw;
+      margin-top: 15vw;
+    }
+
+
+
+
 }
 
 @media print,
