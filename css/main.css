@@ -285,13 +285,15 @@ textarea {
     /* Style adjustments for viewports that meet the condition */
 
     #header {
-      height: 6vw;
+      height: 8.5vw;
+      padding-top: 1vw;
+      padding-bottom: 2vw;
       margin-bottom: 5vw;
     }
 
 
     #logo {
-      height: 5.9vw;
+      height: 8vw;
     }
 
     #blockcontainer {
@@ -320,7 +322,7 @@ textarea {
       height: 40vw;
       padding: 3vw;
       font-size: 1.5vw;
-      margin-top: 8vw;
+      margin-top: 14vw;
     }
 
 
